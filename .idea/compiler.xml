@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kurento-tree-demo-spa" />
+        <module name="kurento-tree-test" />
+        <module name="kurento-tree-client" />
+        <module name="kurento-tree-demo-embed" />
+        <module name="kurento-tree-server" />
+        <module name="kurento-tree-client-js" />
+        <module name="kurento-tree-demo" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="kurento-tree-client" options="-source 1.8 -target 1.8" />
+      <module name="kurento-tree-client-js" options="-source 1.8 -target 1.8" />
+      <module name="kurento-tree-demo" options="-source 1.8 -target 1.8" />
+      <module name="kurento-tree-demo-embed" options="-source 1.8 -target 1.8" />
+      <module name="kurento-tree-demo-spa" options="-source 1.8 -target 1.8" />
+      <module name="kurento-tree-server" options="-source 1.8 -target 1.8" />
+      <module name="kurento-tree-test" options="-source 1.8 -target 1.8" />
+    </option>
+  </component>
+</project>
